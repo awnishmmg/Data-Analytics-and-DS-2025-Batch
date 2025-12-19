@@ -5,7 +5,7 @@ print(9.8)  #constant value
 
 x = 10  #variable 
 print(x)
-name = 'Ravi';
+name = 'Ravi'
 print(name)
 
 age = 20
