@@ -1,0 +1,219 @@
+'''
+Python Langauge Fundamental consist following building blocks
+
+1. python tokens : smallest unit of the python program.
+2. Indetifiers : Name given to any entity.
+    1. name of variable, classname,module,objectname,constant,packagename
+    filename,aliasname 
+
+    How many Indentifier are there 
+   
+    Example :-
+    
+    sum=10  
+    import math as m 
+    def area(l,b): 
+        return l*b 
+    class Total(): 
+        result = area()
+        def getResult():
+             return m.pi*Total.result 
+        
+3. Literals : any constant values of any will be called as literal.
+4. Operators : symbols used to perform some Operations on operands.
+    eg:-
+     2 [+] 3 = 5  -----> Result 
+     |        
+Operand 1  Operand 2
+here + will act as operand
+
+5. Keywords : These are reserved Words, so entire python can be using keyword.
+Total there total 39 Keywords in python after version 3.10 
+before 3.10 we have 35 Keywords + 4 keywords are added.
+
+Keywords are divided in 2 categories 
+1. hardkeyword : keywords before version 3.10.x are called hard keywords
+2. softkeyword : keywords after version 3.10.x are called soft keywords.
+   1. match 
+   2. case 
+   3. _  
+   4. type
+
+   Sample python program for the keywords
+   1. wap in python to display the hardkeyword 
+   2. wap in python to show count of hardkeyword 
+   3. wap in python to display the soft keyword 
+   4. wap in python to show count of soft keyword
+   5. wap in python to prove that python has 39 keywords.W
+   6. wap in python to check if the given keyword is hard or soft ? 
+
+6. puncuation set.
+
+syntax of the print:-
+=====================
+print('anything',end,sep,flush)
+
+'anything'
+or 
+"anything"
+or 
+""" anything """
+or 
+''' anything '''
+
+what ever message you will write inside any qoute (single,double,triple single,triple double) it will be printed in the console.
+
+attributes of the print :-
+========================
+1. end: end attribute is used to represent the EOL.
+by default print will print everything in new line.
+print statement prints everything in next line, due to end='\n'
+
+in order to print in new line :-
+print()
+print('something',end='\n')
+
+in order to print in same line :-
+print('This is line',end='')
+
+sep : sep keyword is used to when ever we have multiple argument in print statement.
+Note : sep donot work in single argument.
+by default value of sep is " "
+sep : is called seperator attribute which is used to speratte multiple argument with some specific symbol 
+
+AwnishKumar
+
+Snortting Effect in python 
+Flush Attribute : it flushes out the Buffer date, when set to True.
+
+How many ways we can control the Output Buffering:-
+1. print(flush=True|False)
+2. python -u file.py 
+3. import sys 
+   sys.stdout.flush()
+
+
+taking input from the python:-
+we have seen that we can take input in python by two ways 
+using 
+1. sys.stdin.readline()
+2. input() : 
+1. it is general function that can be used to 
+ take input from the end user.
+2. input function can be used to generate output during input statement.
+3. return type of input function is string type.
+4. Type conversion is not necessary until and unless, return type
+and required string.
+
+Enter the Number : 10 
+x=10
+print(type(x))
+<class 'str'>
+
+types of input:-
+1. compiled input/static or command line arguments
+   The arguments and input supplied before or at compilation 
+   time of the program is said to be compiled time or command 
+   line arguments.
+    
+    -when the argument are suppplied they donot consume any memory.
+    because the arguments are suppled before the Program execution.
+
+    How we compile or before execution:-
+    =================================
+    what is compilation phase : The phase just before the execution of the program.
+    How to Run the Program:-
+    cmd:/> python p1.py 10 20 
+                        |   | command line argument 2
+                        Command line argument 1
+    <---------------------------------Running state/Runtime Env------------------------------->
+    Enter the 1st Number : 10 <--------- Runtime argument 1
+    Enter the 2nd Number : 20 <--------- Runtime argument 2
+
+Important Discussion in Command Line Arguments :-
+1. The very first argument in command line is filename or module
+2. type of command line argument is list type 
+3. command line argument can never be empty.
+4. minimum length : 1 and max lenght = n 
+5. Minimum Index : 0 and max = n-1 
+6. The command argument list is homogenous.
+wap in Python to show that argument list is a homogenous in nature?
+7. the type of elements is always str type.
+8. command line argument list is convert all the element in string type because of type 
+promotion concept.
+
+Type promotion is concept of converting the element in a collection of same time so that 
+entire list or collection becomes homogenous.
+it is same concept which used in numpy and pandas.
+
+why firstname is string type ?
+it is because the filename even if it is numerical will end with name .py hence making it 
+string compatible.
+
+what is flavour of python we are studying ?
+1. cpython 
+what is standarization that will be c langauge ?
+2. arr in c is equivalent list in python.
+
+arr in c : homogenous 
+list in python : hetrogenous.
+
+Type of list in Python:-
+1. homogenous : All element are of same time or datatype  
+>>> l1 = [1,2,3,3]
+>>> for i in l1:
+...     print(type(i))
+...
+<class 'int'>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+
+2. hetrogenous : All or few element are of different datatype.
+
+>>> l2 = [10.5,10,True,False,[1,2,3],"Awnish",{'x':10,'y':20},]
+>>> for i in l2:
+...     print(type(i))
+...
+<class 'float'>
+<class 'int'>
+<class 'bool'>
+<class 'bool'>
+<class 'list'>
+<class 'str'>
+<class 'dict'>
+>>>
+
+By default python list data structure is heterogenous.
+
+9. in python collection items can be 
+csv,tsv,ssv 
+csv 1: colon seperated 2: comma seperated 
+tsv 2: tab seperated value 
+ssv 3: space sperated value 
+
+consider list = [1,2,3,4] : csv
+tuple = (1,2,3,): csv
+set = {1,2,3,4,5,,5,5,6,6,6} :csv 
+d = {a:20,b:10,c:100} key and value pair, csv 
+     key and value is seperated by :
+
+so command line argument is space sperated value.
+
+10. if we want to supply continous String then we have to use,
+""
+
+2. runtime input/dynamic arguments
+   These are the arguments and input that are supplied while 
+   program is executing in the memory.
+   The argument which are supplied also stored in input buffer and 
+   main memory hence agrument at runtime consume more memory.
+
+
+Note : in function concept we will learn about a concept called, argument passing
+we will 2 types of argument 
+1. positional argument 
+2. keyword argument or named argument : where value passed with name or keyword
+
+
+'''

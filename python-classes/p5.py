@@ -1,4 +1,4 @@
-# Collection datatypes 
+# Collection datatypes : They are not primitive in nature.
 # Collection datatypes are those datatypes those types which have can be used 
 # to store mutliple values 
 
