@@ -13,18 +13,18 @@ x : str = 'Awnish'
 print(x)
 print(type(x))
 
-# # x=10
-# # print(x)
-# # print(type(x))
-
-# # x:int=10 # type -> int 
-# # print(x)
-# # print(type(x))
-
-# # from typing import Union
-
-# # x:Union[str,int] = 'Awnish'
-# # print(x)
+# x=10
+# print(x)
 # print(type(x))
+
+y:int=10 # type -> int 
+print(y)
+print(type(y))
+
+from typing import Union
+
+z:Union[str,int,float] = 3.14
+print(z)
+print(type(z))
 
 

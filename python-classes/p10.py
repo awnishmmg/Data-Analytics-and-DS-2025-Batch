@@ -7,4 +7,10 @@ no1 = input('Enter the first no:')
 no2 = input('Enter the second no:')
 print('Result :',no1+no2)
 
+# Note : '+' operator is used for both addition and concatinating the string.
+# str + str -> str
+# int + int -> int
+# str + int -> error
+
+
 

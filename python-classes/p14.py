@@ -1,4 +1,6 @@
 #Base Conversion 
+# int,float,str, bool, NoneType....
+# number system changes functions : bin(), oct(), hex()
 
 no = int(input('Enter the No:'))
 print('no is :',no)

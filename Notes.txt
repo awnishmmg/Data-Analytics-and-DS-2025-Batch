@@ -216,4 +216,21 @@ we will 2 types of argument
 2. keyword argument or named argument : where value passed with name or keyword
 
 
+===============Meaning of Type Casting :=================================
+changing one type to another type.
+1. implicit Type Casting : if type is automatically changed it 
+caled implicit type casting.
+
+2. Explicit Type Casting : if the type does not change automatically
+but forced to type is said to be Explicit time casting.
+
+x = input('Enter the value:') -> str -> forcefully -> int.
+
+3. Type Hinting : it gives an Idea to the python, which type of Indentifier 
+takes which type of value and which type work.
+
+even when we try to implement type hit we have get No Error even if bypass.
+type hinting.
+
+
 '''

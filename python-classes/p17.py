@@ -7,17 +7,17 @@
 int + int = int 
 int - int = int 
 int * int = int 
-int / int = float 
+int / int = float # int / int = float - float division
 int // int = int 
 '''
 
 x=3 
 y=2
-print(x+y)
-print(x-y)
-print(x*y)
-print(x//y)  # int-division
-print(x/y)   # float-division --> example -> implicit Type conversion 
+print(x+y) # 5
+print(x-y) # 1
+print(x*y) # 6
+print(x//y) # 1  # int-division
+print(x/y) # 1.5  # float-division --> example -> implicit Type conversion 
 
 x=3 # ---> 3.0 
 y=2.5
