@@ -20,7 +20,7 @@ y = 2
 print(x+y) # Addition
 print(x-y) # subtract
 print(x*y) # multiply
-print(x**y) #exponent operator or power 2^5 => 2**5
+print(x**y) #exponent operator or power 2^3 => 2**3
 print(x/y) # float division
 print(x//y) # integer division
 print(x%y) # Remainder

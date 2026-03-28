@@ -1,10 +1,11 @@
-# How to make the code typecheck Mendatory in python 
+# In Order to type check : we use mypy package
+# pip install mypy
+# python -m mypy p20.py
 
-import os 
-import sys
+x : int = 10
+print(x)
 
-def main():
-    x:int = input('Enter the x value:')
-    print(x)
+# Execute python filename.py 
 
-os.system(f'python -m mypy {sys.argv[0]}')
+
+

@@ -9,7 +9,7 @@
 << : left shift Operator 
 >> : Right shift Operator 
 
-These mostly used in Data Structure 
-These are used in Embedded Technology
+These mostly used in Data Structure : Bit Manipulation
+These are used in Embedded Technology : IOT 
 
 '''

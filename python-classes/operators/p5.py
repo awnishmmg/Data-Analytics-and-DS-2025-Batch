@@ -18,6 +18,10 @@ x = 10
 x=x+1
 print(x)
 
+#X=10
+#X(New) = X(Old)+1
+#  
+
 x+=1
 print(x)
 

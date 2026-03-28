@@ -14,6 +14,12 @@ assign : assignment Operator
 
 '''
 # Relational : it is to compare two values 
+# it return boolean value
+# equality : ==
+# inequality :!=
+    # strict inequality : >, <
+    # non strict inequality (slack inequality): >=, <=
+
 
 print(6>5)
 print(5<6)
