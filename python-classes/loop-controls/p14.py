@@ -3,5 +3,5 @@
 name = 'Awnish'
 i=0
 while(i<len(name)):
-    print(f'i = {i}',name[i])
+    print(f'i = {i} => {name[i]}')
     i=i+1

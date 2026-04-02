@@ -233,4 +233,54 @@ even when we try to implement type hit we have get No Error even if bypass.
 type hinting.
 
 
+Operators Concepts :-
+1. Arthematic 
+2. Relational
+3. Conditional
+4. Logical
+5. Special 
+6. Bitwise 
+7. assignment Operators.
+
+Decision Control Statement :-
+=============================
+What is Normal Execution of the Program 
+1. any program will execute from top to bottom and left to right 
+
+Top to bottom :-
+
+what is decision Control statements:-
+The decision control statement are those statements which execute the statement 
+on the basis of the some condition 
+if the condition is True so it will execute the code and if the condition is False
+it will stop the execution of the program.
+
+
+Types of Decision Control Blocks :-
+1. if 
+2. if-else 
+3. elif ladder 
+4. nested if else 
+5. switch case : is not supported by python after version 3.10.x the switch case 
+can be achieved by using match keyword.
+
+what is loop control:-
+if we want iteratively execute any statement or we want to perform some 
+task repeatedly we use loop control statements.
+
+loop are of two types 
+1. entry control loop : loop in which condition is checked before the 
+entry that is called entry control loop.
+eg : In movie hall first ticket is checked then you are allowed to enter  
+2. exit control loop : loop in which condition is checked after ward once the
+entry is made.
+
+1. service, parking gate pass is the example of the exit control.
+unlike in any programming langauge, 
+
+while loop : entry control loop
+we have for loop, while loop
+do-while : exit control loop --> in python we donot have do while loop 
+rather we have for and while. 
+
 '''

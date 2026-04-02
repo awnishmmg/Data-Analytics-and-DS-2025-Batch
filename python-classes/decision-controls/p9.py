@@ -4,9 +4,14 @@
 # Remainder --> 0 ---> Even 
 # Remainder ---> 1 ---> Odd
 
-number = int(input('Enter the No:'))
-output = ['Even','Odd'] 
-print('No is ',output[number%2])
+number = int(input('Enter the No:')) #11
+output = ['Even','Odd']  #0,1
+remainder = number % 2
+print('No is ',output[remainder])
+
+
+
+
 
 
 

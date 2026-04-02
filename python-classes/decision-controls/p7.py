@@ -1,6 +1,5 @@
-# By default Python does not switch case 
+# By default Python does not switch case
 # similar to switch we have match case 
-
 
 day = int(input('Enter the day:'))
 
@@ -19,5 +18,5 @@ match day:
         print('Saturday')
     case 7:
         print('Sunday')
-    case _:
+    case _: #default case of the switch
         print('Invalid Day')

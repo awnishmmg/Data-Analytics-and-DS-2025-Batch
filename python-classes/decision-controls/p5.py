@@ -3,7 +3,7 @@
 # elif is short form of else+if 
 
 #Grades
-# A -> 90 to 100 
+# A -> 90 to 100 (inclusive and exclusive)
 # B -> 80 to 89 
 # C -> 70 to 79
 # D -> 60 to 69
@@ -11,6 +11,7 @@
 # Fail < 50 
 
 marks = eval(input('Enter the marks:'))
+
 if marks>=90 and marks<=100:
     print('Grade A')
 elif marks>=80 and marks<=89:

@@ -15,4 +15,4 @@ if marks <=100:
     else:
         print('Failed')
 else:
-    print('Invalid Marks')
+    print('Invalid Marks, Marks should be between 0 to 100')

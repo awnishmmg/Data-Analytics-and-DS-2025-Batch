@@ -4,6 +4,7 @@
 # while
 #
 
+from time import sleep
 '''
 Syntax of while loop
 
@@ -19,6 +20,7 @@ i=1 # start counter
 while(i<=5): # Falsey condition : when I is greater than 5 loop will stop
     print(f'Hello = {i}')
     i+=1 # update the counter : incrementing the counter by 1
+    sleep(1)
 
     # Infinite loop : loop which runs forever
     # i = 1 will always be less than 5

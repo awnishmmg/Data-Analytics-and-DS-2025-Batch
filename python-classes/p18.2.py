@@ -9,17 +9,17 @@
 # var_name : data_type = value
 
 
-x : str = 'Awnish'
-print(x)
-print(type(x))
-
-# x=10
+# x : int = 'Awnish'
 # print(x)
 # print(type(x))
 
-y:int=10 # type -> int 
-print(y)
-print(type(y))
+# # x=10
+# # print(x)
+# # print(type(x))
+
+# y:int=10 # type -> int 
+# print(y)
+# print(type(y))
 
 from typing import Union
 
