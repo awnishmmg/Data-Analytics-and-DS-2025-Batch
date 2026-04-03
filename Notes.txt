@@ -283,4 +283,17 @@ we have for loop, while loop
 do-while : exit control loop --> in python we donot have do while loop 
 rather we have for and while. 
 
+function:-
+=============
+function are the block of code that is responsible for performing 
+some specific task.
+Advantage or Importance of a functions :-
+=========================================
+1. Code re-useability 
+2. modularity improve
+3. avoid DRY principal (Do not repeat yourself) instead use the functional 
+approach or modular approach.
+4. improve memory management.
+
+
 '''
