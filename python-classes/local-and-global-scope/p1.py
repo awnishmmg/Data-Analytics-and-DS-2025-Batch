@@ -1,5 +1,5 @@
 # Local scope vs global scope
-# Note variable are Readonly
+# Note:- Global variable are always Readonly inside the function
 import sys 
 
 b = 20 # b is global scope

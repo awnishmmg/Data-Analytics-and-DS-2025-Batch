@@ -6,7 +6,6 @@
 # No Argument with Return Type
 # with Argument with Return Type 
 
-
 # No Argument and with Return Type 
 import sys
 

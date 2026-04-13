@@ -2,10 +2,14 @@
 # varible length Named argument
 import sys 
 
+# ** stars 
+
 def add(**d): 
-    print(d)
-    print(type(d))
-    print('keys',d.keys())
+    print(d) 
+    print(type(d)) # <class 'dict'>
+    print('keys',d.keys()) # keys = name,age,subject,marks,hostel
+    # values = Awnish,50,80,physcis,False
+    
     print('values:',d.values())
 
 def main():

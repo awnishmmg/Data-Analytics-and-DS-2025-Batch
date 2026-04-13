@@ -1,3 +1,4 @@
+# Universal Import or * star Import or Wild card Import
 
 #without Reference
 from math import *

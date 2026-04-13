@@ -1,4 +1,3 @@
-# Different Type of arguments in Python 
 # How to return the multiple values in python
 import sys 
 
@@ -13,7 +12,6 @@ def getTuple():
 
 def getMutiple():
     return 100,200,300  # tuples
-
 
 def main():
     result = getList()

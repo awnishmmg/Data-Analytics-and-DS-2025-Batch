@@ -6,7 +6,7 @@
 # No Argument with Return Type
 # with Argument with Return Type 
 
-# with Argument and No Return Type 
+# with Argument and with Return Type 
 import sys
 
 def add(x,y):

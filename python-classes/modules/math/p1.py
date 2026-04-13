@@ -1,11 +1,10 @@
 # What is module :-
-
 # module is similar to any headerfile in c/c++ and package in java.
-# c-> string.h, dos.h,conio.h,stdlib.h, stdio.h 
+# c-> string.h, dos.h,conio.h,stdlib.h, stdio.h,math.h
 # java -> java.util, java.io, java.lang
 
-
 # modules : it is collection of predefined ready made function,varibales or classes
+# math module: it a module in python which contains useful mathematical constant and functions
 
 import math
 

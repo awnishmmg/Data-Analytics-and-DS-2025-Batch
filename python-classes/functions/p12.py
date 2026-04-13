@@ -3,6 +3,7 @@
 import sys 
 
 def add(**d): 
+    print('type:',type(d))
     print(d)
     return d['x'] + d['y']
     

@@ -8,14 +8,14 @@ def displayLyari():
 
     global lyari_memeber # Power of global keyword
     lyari_memeber = 'ranbir'
-    print(f' {india_memeber} has local rule')
-    print(f' {lyari_memeber} has global Rule') #ranbir
+    print(f' {india_memeber} has local rule in lyari.')
+    print(f' {lyari_memeber} has global Rule in lyari.') #ranbir
 
 def lahore():
-    print(f' {lyari_memeber} has global Rule')
+    print(f' {lyari_memeber} has global Rule in Lahor.')
 
 def karachi():
-    print(f' {lyari_memeber} has global Rule')
+    print(f' {lyari_memeber} has global Rule in Karachi.')
 
 
 def main():

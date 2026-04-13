@@ -295,5 +295,52 @@ Advantage or Importance of a functions :-
 approach or modular approach.
 4. improve memory management.
 
+In order to understand how the function are beneficial for the memory
+management, can be easily understood if we try to understand the life cycle 
+of the functions.
+
+In RAM we have two types of memory
+1. stack Memory : static 
+   All the normal variables will be created inside the stack memory 
+   within stack memory we have stack frames.
+2. Heap Memory  : dynamic
+   In Heap memory only types variable can live 
+   1. Objects 
+   2. Pointer
+
+in case of varible stack memory is utilised where as in function a stack frame is created.
+that stack is created as soon as the function is called as as the function 
+execution is stopped, the stack frame is destroyed.
+
+Classification of function on the basis of input and output:-
+Note : Input -> argument or Parameter 
+Output : for Output function must return something.
+
+Module Aiasing:-
+==================
+aliasing given an Alternate Name is called as aliasing 
+syntax 
+<module_name> as new_name 
+as keyword is used to give the alias name 
+Module aliasing : giving an alternate name to the module is said to be module aliasing.
+
+Eg:-
+import math as m (module aliasing)
+math.sqrt() -> m.sqrt()
+
+from math import sqrt  as sq  (member aliasing)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 '''
