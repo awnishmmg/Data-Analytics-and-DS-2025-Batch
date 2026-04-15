@@ -5,36 +5,17 @@
 import random as r 
 n = eval(input('Enter the number:'))
 l = list(range(1,n+1))
-print(l)
+print('original List:',l)
 
 for i in l:
     r.shuffle(l)
 
-print(l)
+print('shuffled list:',l)
 rev = l[::-1]
-print(rev)
+print('Reserved List',rev)
 
-# r.suffle("abc")
 x = [1,2,3]
+print('Original x:',x)
 r.shuffle(x)
 r.shuffle(x)
-print(x)
-
-# x = 'Awnish' 
-# r.shuffle(x)
-# r.shuffle(x)
-# print(x)
-
-x = 'Awnish'
-y = list(x)
-print(y)
-
-r.shuffle(y)
-r.shuffle(y)
-
-print(y)
-s = ""
-for i in y:
-  s = s + i
-
-print(s)
+print('shuffled x:',x)

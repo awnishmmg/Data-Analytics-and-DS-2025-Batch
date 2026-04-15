@@ -1,6 +1,5 @@
 # How to Perform Permutation and combination 
 
-
 # npr : permutation
 # ncr : combination
 

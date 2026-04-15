@@ -1,4 +1,4 @@
-# How to find the HCF : Highest common factor : gcd
+# How to find the HCF : Highest common factor : gcd (greatest common divisor)
 # How to find the LCM : least common factor 
 
 import math as m 

@@ -5,9 +5,14 @@ import random as r
 l = list(range(1,10))
 
 print(l)
+
 r.shuffle(l)
+print(l)
 r.shuffle(l)
+print(l)
 r.shuffle(l)
+print(l)
 r.shuffle(l)
+print(l)
 r.shuffle(l)
 print(l)
