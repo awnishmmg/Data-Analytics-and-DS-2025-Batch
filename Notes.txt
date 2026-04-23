@@ -331,6 +331,186 @@ math.sqrt() -> m.sqrt()
 from math import sqrt  as sq  (member aliasing)
 
 
+What is meaning of pdbc:-
+1. pdbc starts for the python database connectivity.
+2. This concepts remain same in every programming langauge like java : jdbc 
+3. in pdbc other python application will connect to real time database like (mysql,sqlserver,orcale or postgresSQL,sqlite)
+4. it is database driver which is convert python calls to database calls and 
+database calls to python native calls.
+
+Python App <--------------------> Database 
+           |----------Request----------> 
+           <----------Response---------|
+           
+
+which type of database : it is always RDBMS (sql)
+Database : mysql 
+
+for NOSQL for eg : mongodb,dynamodb,Redis,RabbitMQT, we have different driver.
+we require special module or package for working with mysql :-
+
+The very first step is to download Xampp Server which has SQL Server Preinstalled.
+After installing Xampp Make sure Apache is Running and Mysql Server is Running 
+
+By Default Configuration :-
+Apache : Port 80
+Host : localhost 
+IP Address : 127.0.0.1
+mysql : 3306 
+
+Xampp Server :
+http://localhost:5000/
+
+In Order to Access database we login into the phpmyadmin interface : 
+http://localhost:5000/phpmyadmin
+
+in phpmyadmin 
+1. create database 
+2. inside database create the table 
+   Always whenever you create a table there +1 field this field is primary key 
+   eg : name,age and id 
+
+   datatype of columns 
+   name  : varchar(199)
+   age : int(11)
+   id : int(11) : Primary key and Auto-increment 
+
+ user table is created with columns id,name,age 
+3. we want to connect our Python Application with Database.
+
+In order to connect python application with mysql database we need a special python database connector library 
+mysql-connector-python 
+
+we have 3 types of libraries 
+1. pymysql : light weight 
+2. mysql-connector-python : Official
+3. sqlAlchemy (Production application) : it supports multiple database. (oracle,postgresSQL,sqlserver,mysql)
+
+installing mysql-connector-python
+=====================================
+python -m venv myenv
+pip install mysql-connector-python
+
+Project Structure of myenv :-
+===========================
+myenv1 
+  |
+  scripts 
+    1. activate 
+    2. deactivate 
+   libr
+     | All Packages will installed
+
+myenv2 
+  |
+  scripts 
+    1. activate 
+    2. deactivate 
+   libs 
+    |All Packages will installed
+
+How to activate the venv :-
+============================
+myenv\scripts\activate
+
+How to deactivate the venv :-
+============================
+myenv\scripts\deactivate
+
+How to know the myenv is activate :-
+====================================
+c:/training/siperweb:>myenv\scripts\activate
+(myenv) c:/training/siperweb:> # This is activated 
+
+How to know the myenv is activate :-
+====================================
+c:/training/siperweb:>myenv\scripts\deactivate
+c:/training/siperweb:>  # This is activated 
+After Activation we have install the package of connector mysql connector 
+
+pip install mysql-connector-python
+In Order to connect to Any database we need 5 Information
+
+1. hostname : server name or server IP : 127.0.0.1 
+2. Port : 3306 
+3. username : root 
+4. password : ""
+5. database : siper_db
+
+Crud operation in database :-
+============================
+C: Create the data (insert)
+r : read the data (select)
+u : update the data (update)
+d : delete the data
+
+This is very important because in Application these Operation 
+is Must.
+
+Student : Create,Read,Update,Delete 
+Product: create, update,select/read or delete 
+
+1. Identify Query Type 
+in pdbc we have 2 types of query 
+1. commitable query (writable query) : Modify the data 
+   Insert,Update,delete -> commitable -> commit
+2. Non Commitable Query (Read Query)
+   select 
+   whenever select Query executed it will return the set of data.
+   the data which is returned by select Query is said to 
+   be resultSet 
+
+   This Resultset will contain List of Tuples
+   [(1001,Awnish,50),(1002,Katrina,40),(1003,Sunny,30)...]
+         |                    |             |
+         Record1             Record2      RecordN
+
+3. in database python app can communicate with database 
+  using a special Object which is cursor object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
