@@ -1,3 +1,4 @@
+
 from pdbc.db_config import getConnection
 import sys 
 def insertUser(name,age):

@@ -331,6 +331,53 @@ math.sqrt() -> m.sqrt()
 from math import sqrt  as sq  (member aliasing)
 
 
+RDBMS Database : mysql or oracle,pgsql,SQL Server,AWS Redshift,...infinix,db2
+You need : SQL 
+Non Databases : mongodb,dynamodb,Redis,Memcache,RabbitMQT,couchdb,cassendra,BHive,Hbase
+You Need No SQL 
+
+database is technology that at server level.
+in order make any system severver we need server wala software.
+
+1. mysql database (mysqld)
+2. server (IIS,ngnix,Apache)
+3. sql client (sql workbench,phpmyadmin,mysql terminal,heidiSQL)
+
+we are aware that software technology is plateform dependent.
+OS : windows  mysql.exe
+Linux : Ubantu  mysql.deb or mysql.rpm 
+macOS : Apple mysql.app 
+
+any configuration in app made for one type of plateform will be changed when we deploy 
+the application to the server because there can be the chance that, server and local system 
+may have different configuration.
+
+So the solution for this is AMP Stack ?
+A : Apache
+m : mysql 
+p : php (phpmyadmin)
+
+windows + amp => wamp server 
+lamp : linux Apache mysql php
+mamp : macos apache mysql php 
+Xampp : Cross plateform amp stack ,perl 
+
+               |http
+Apache : 443,<port>
+          |
+          ssl port 
+          https
+
+Address : http://localhost:port
+or 
+http://127.0.0.1:port
+
+http://127.0.0.1:5000
+or 
+http://localhost:5000 
+
+mysql : 3306 
+
 What is meaning of pdbc:-
 1. pdbc starts for the python database connectivity.
 2. This concepts remain same in every programming langauge like java : jdbc 
@@ -377,14 +424,14 @@ in phpmyadmin
 
  user table is created with columns id,name,age 
 3. we want to connect our Python Application with Database.
-
 In order to connect python application with mysql database we need a special python database connector library 
 mysql-connector-python 
 
 we have 3 types of libraries 
 1. pymysql : light weight 
 2. mysql-connector-python : Official
-3. sqlAlchemy (Production application) : it supports multiple database. (oracle,postgresSQL,sqlserver,mysql)
+3. sqlAlchemy (Production application) : it supports multiple database.
+ (oracle,postgresSQL,sqlserver,mysql)
 
 installing mysql-connector-python
 =====================================
@@ -398,6 +445,8 @@ myenv1
   scripts 
     1. activate 
     2. deactivate 
+    3. python.exe
+    4. pip.exe
    libr
      | All Packages will installed
 
